@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: var(--Grey);
+    background-color: var(--Grey)
 }
 
 .qr {
@@ -19,17 +19,33 @@ body {
     font-family: 'Outfit', sans-serif;
     margin: auto;
     border-radius: 5%;
-    width: 350px;
+    max-width: 300px;
     background-color: var(--White);
-    padding: 5px;
+    padding-top: 15px;
     font-size: 15px;
-    justify-content: space-around;
+    justify-content: ;
+    max-height: 450px;
+
+    /* Centering the subject */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    background-color: var(--White);
 }
 
 .qr img {
     border-radius: 5%;
-    max-height: 320px;
+    max-height: 270px;
+}
+
+.qr h1 {
+    font-size: 22px;
+    max-width: 260px;
+    color: var(--Dark-Blue)
 }
 
 .qr p {
-}
+    color: var(--Light-Blue)
